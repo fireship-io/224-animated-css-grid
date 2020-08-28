@@ -9,10 +9,10 @@
 /* Medium screens */
 @media screen and (min-width: 600px) {
   .card-tall {
-    grid-row: span 2 / auto;
+    grid-row: span 2;
   }
 
   .card-wide {
-    grid-column: span 2 / auto;
+    grid-column: span 2;
   }
 }
