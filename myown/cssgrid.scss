@@ -1,0 +1,40 @@
+$primary-background:#222831; 
+$text-color: #dddddd;
+$secondary-color: #f05454;
+$tri-optcolor:#30475e;
+
+body{
+    color:$text-color ;
+    background-color: $primary-background;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+//The individual card, so just like each card
+.card{
+   
+    
+    justify-content: center;
+    align-content: center;
+    background-color: $secondary-color;
+    margin: 2px;
+    width: min;
+    font-size: 3rem;
+    padding: 5px;
+    transition: 0.5s;
+    text-align: center;
+   
+}
+.card:hover{
+    background-color: $tri-optcolor ;
+    border-radius: 5px;
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 20px -1px rgba(240,84,84,1);
+}
+//The decoration for the basic grid
+.basic-grid{
+   display: flex;
+
+    
+}

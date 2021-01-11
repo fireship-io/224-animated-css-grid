@@ -1,0 +1,41 @@
+body {
+  color: #dddddd;
+  background-color: #222831;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #f05454;
+  margin: 2px;
+  width: min;
+  font-size: 3rem;
+  padding: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #30475e;
+  border-radius: 5px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 10px 10px 20px -1px #f05454;
+          box-shadow: 10px 10px 20px -1px #f05454;
+}
+
+.basic-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=cssgrid.css.map */
